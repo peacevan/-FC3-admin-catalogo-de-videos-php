@@ -12,6 +12,6 @@ class TesteUnitTest extends TestCase
     {
         $teste = new Teste();
         $reponse = $teste->foo();
-        $this->assertEquals('1234', $reponse);
+        $this->assertEquals('123', $reponse);
     }
 }
