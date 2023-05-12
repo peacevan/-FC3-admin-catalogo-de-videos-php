@@ -2,6 +2,7 @@
 
 namespace Tests\Unit;
 
+use Core\Domain\Entity\Category;
 use Core\Teste;
 use PHPUnit\Framework\TestCase;
 
@@ -14,4 +15,5 @@ class TesteUnitTest extends TestCase
         $reponse = $teste->foo();
         $this->assertEquals('123', $reponse);
     }
+
 }

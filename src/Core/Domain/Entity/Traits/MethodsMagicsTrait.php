@@ -9,7 +9,7 @@ Trait MethodsMagicsTrait {
 
     public function __get($property)
     {
-        if ($this->{$property})
+        if (isset($this->{$property}))
             return $this->{$property};
     
         $classname= get_class($this);
